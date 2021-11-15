@@ -1,5 +1,4 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/IBrokeYourHeart.lua"))()
-local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/WL.lua",true))()
 
 
 local Window = Library:Create("Global Ware","Made By Global")
