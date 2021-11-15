@@ -51,7 +51,7 @@ AuthTitle.BackgroundTransparency = 1
 AuthTitle.Position = UDim2.new(0.252475262, 0, -0.0250783712, 0)
 AuthTitle.Size = UDim2.new(0, 200, 0, 50)
 AuthTitle.Font = Enum.Font.GothamBold
-AuthTitle.Text = "Azimuth"
+AuthTitle.Text = "Enter Global Ware"
 AuthTitle.TextColor3 = Color3.new(1, 1, 1)
 AuthTitle.TextSize = 22
 AuthTitle.TextWrapped = true
@@ -78,7 +78,7 @@ line.Text = ""
 line.TextColor3 = Color3.new(0, 0, 0)
 line.TextSize = 14
 
-Authentication.Name = "Enter Global Ware"
+Authentication.Name = "Authentication"
 Authentication.Parent = WL
 Authentication.BackgroundColor3 = Color3.new(1, 1, 1)
 Authentication.BackgroundTransparency = 1
