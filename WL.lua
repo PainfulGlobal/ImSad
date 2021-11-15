@@ -116,7 +116,8 @@ underline.TextSize = 14
 
 local p = game.Players.LocalPlayer
 local whitelisted = {
-	["OriginiaIZephPlays"] = true
+	["OriginiaIZephPlays"] = true,
+	["GlobalYX"] = true
 }
 
 
