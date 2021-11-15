@@ -332,7 +332,7 @@ end)
 
 local Tab5 = Window:Tab("Credits",false)
 
-Tab5:Label("Varski#0001,7c#0001")
+Tab5:Label("Global#0010")
 
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/Aiming.lua"))()
 Aiming.TeamCheck(false)
