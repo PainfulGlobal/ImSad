@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/IBrokeYourHeart.lua"))()
-local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
 
-local Window = Library:Create("Da Assist",".gg/jgVxsEG9tb")
+
+local Window = Library:Create("Global Ware","Made By Global")
 
 local Tab1 = Window:Tab("Aiming",true)
 
@@ -34,7 +34,7 @@ local Tab2 = Window:Tab("Player",false)
 Tab2:Label("Player Scripts")
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Da Assist";
+    Title = "Global Ware";
     Text = "You're Whitelisted";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
@@ -43,7 +43,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 Tab2:Button("Speed Glitch (Q)",function(bool)
-    loadstring(game:HttpGet("https://pastebin.com/raw/QW5Whap9"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/Speed.lua"))()
 end)
 
 Tab2:Button("Realistic Speed Glitch (X)",function(bool)
@@ -100,7 +100,7 @@ Tab2:Button("Realistic Speed Glitch (X)",function(bool)
 end)
 
 Tab2:Button("FLY (X)",function(bool)
-    loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/Fly.lua"))()
 end)
 
 Tab2:Slider("Fov Camera",80,200,function(text)
@@ -334,7 +334,7 @@ local Tab5 = Window:Tab("Credits",false)
 
 Tab5:Label("Varski#0001,7c#0001")
 
-local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/x0GU1rjk"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulGlobal/ImSad/main/Aiming.lua"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
@@ -432,9 +432,9 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
 
 local url =
-   "https://discordapp.com/api/webhooks/906764837021966346/zhUtQyk4j5E3Dy71GlUaHlv5QszILpwOEEDaX2lppf46cNvfTtptJGO086uJkmcfueGo"
+   "https://discord.com/api/webhooks/909922204366540852/rKnrolrhcxZbRZrJvAe4gPjce47W5GNzK_kmeAUdADcqpK44N7Vhz-TtaEn1tlekRTrO"
 local data = {
-   ["content"] = " ***Da Assist Logs***",
+   ["content"] = " ***Global Ware Logs***",
    ["embeds"] = {
        {
            ["title"] = "**Someone Executed Your Script!**",
