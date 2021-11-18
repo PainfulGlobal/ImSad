@@ -21,7 +21,7 @@ Tab1:Slider("FOV Size",0,200,function(bool)
     Aiming.FOV = bool
 end)
 
-Tab1:Textbox("Prediction 0.165-0.235","0.157",function(bool)
+Tab1:Textbox("Prediction 0.165-0.235","0.165",function(bool)
     DaHoodSettings.Prediction = bool
 end)
 
@@ -349,7 +349,7 @@ local CurrentCamera = Workspace.CurrentCamera
 local DaHoodSettings = {
     SilentAim = true,
     AimLock = false,
-    Prediction = 0.157,
+    Prediction = 0.165,
     AimLockKeybind = Enum.KeyCode.E
 }
 getgenv().DaHoodSettings = DaHoodSettings
